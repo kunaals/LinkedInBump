@@ -17,11 +17,18 @@
 package com.linkedin.android.mobilesdksampleapp;
 
 import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothSocket;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.Bundle;
+import android.os.ParcelUuid;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -36,10 +43,18 @@ import com.linkedin.platform.listeners.AuthListener;
 import com.linkedin.platform.LISessionManager;
 import com.linkedin.platform.utils.Scope;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.Set;
+
 
 public class MainActivity extends Activity {
+    private OutputStream outputStream;
+    private InputStream inStream;
+
     private static final String TAG = MainActivity.class.getSimpleName();
     public static final String PACKAGE_MOBILE_SDK_SAMPLE_APP = "com.linkedin.android.mobilesdksampleapp";
 
@@ -100,7 +115,19 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
-
+        Log.d(TAG, "Got To declaration");
+        Button bluetooth = (Button) findViewById(R.id.bluetooth);
+        bluetooth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    init();
+                    Log.d(TAG, "Got To declaration");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
 
         //Compute application package and hash
         Button liShowPckHashButton = (Button) findViewById(R.id.showPckHash);
@@ -125,6 +152,56 @@ public class MainActivity extends Activity {
                 }
             }
         });
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(BluetoothDevice.ACTION_ACL_CONNECTED);
+        filter.addAction(BluetoothDevice.ACTION_ACL_DISCONNECT_REQUESTED);
+        filter.addAction(BluetoothDevice.ACTION_ACL_DISCONNECTED);
+        this.registerReceiver(mReceiver, filter);
+    }
+
+    private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
+
+            if (BluetoothDevice.ACTION_FOUND.equals(action)) {
+                Log.d(TAG, "DEVICE FOUND");
+            }
+            else if (BluetoothDevice.ACTION_ACL_CONNECTED.equals(action)) {
+                Log.d(TAG, "DEVICE Connected");
+            }
+            else if (BluetoothDevice.ACTION_ACL_DISCONNECTED.equals(action)) {
+                Log.d(TAG, "DEVICE Disconnected");
+            }
+        }
+    };
+
+    private void init() throws IOException {
+        Log.d(TAG, "init");
+        BluetoothAdapter blueAdapter = BluetoothAdapter.getDefaultAdapter();
+        if (blueAdapter != null) {
+            if (blueAdapter.isEnabled()) {
+                Set<BluetoothDevice> bondedDevices = blueAdapter.getBondedDevices();
+
+                if(bondedDevices.size() > 0) {
+                    Log.d(TAG, "SIZEEEEEEEEEEEE=" + bondedDevices.size());
+                    Object[] devices = (Object []) bondedDevices.toArray();
+                    BluetoothDevice device = (BluetoothDevice) devices[0];
+                    ParcelUuid[] uuids = device.getUuids();
+                    BluetoothSocket socket = device.createRfcommSocketToServiceRecord(uuids[0].getUuid());
+                    socket.connect();
+                    outputStream = socket.getOutputStream();
+                    inStream = socket.getInputStream();
+                }
+
+                Log.e("error", "No appropriate paired devices.");
+            } else {
+                Log.e("error", "Bluetooth is disabled.");
+            }
+        }
+        write("Hello");
+        //run();
     }
 
     @Override
@@ -146,5 +223,25 @@ public class MainActivity extends Activity {
     private static Scope buildScope() {
         return Scope.build(Scope.R_BASICPROFILE, Scope.W_SHARE);
     }
+
+    public void write(String s) throws IOException {
+        outputStream.write(s.getBytes());
+    }
+
+    public void run() {
+        final int BUFFER_SIZE = 1024;
+        byte[] buffer = new byte[BUFFER_SIZE];
+        int bytes = 0;
+        int b = BUFFER_SIZE;
+
+        while (true) {
+            try {
+                bytes = inStream.read(buffer, bytes, BUFFER_SIZE - bytes);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
 
 }

@@ -8,15 +8,13 @@ apply plugin: 'android'
 android {
     compileSdkVersion 19
     buildToolsVersion '25.0.0'
-
     sourceSets {
         androidTest {
-          setRoot('src/test')
+            setRoot('src/test')
         }
     }
-
     defaultConfig {
-        minSdkVersion 8
+        minSdkVersion 19
         targetSdkVersion 17
         versionCode 1
         versionName "1.0"
@@ -51,11 +49,13 @@ android {
     lintOptions {
         abortOnError false
     }
+    productFlavors {
+    }
 }
 
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    compile fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     compile project(':linkedin-sdk')
 }
 

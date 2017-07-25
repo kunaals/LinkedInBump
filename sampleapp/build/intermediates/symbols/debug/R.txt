@@ -246,12 +246,13 @@ int id action_context_bar 0x7f0b001d
 int id action_menu_divider 0x7f0b0001
 int id action_menu_presenter 0x7f0b0002
 int id action_mode_close_button 0x7f0b0024
-int id action_settings 0x7f0b004e
+int id action_settings 0x7f0b004f
 int id activity_chooser_view_content 0x7f0b0025
 int id always 0x7f0b0013
 int id apiCall 0x7f0b0049
 int id at 0x7f0b0048
 int id beginning 0x7f0b000f
+int id bluetooth 0x7f0b004e
 int id checkbox 0x7f0b002d
 int id collapseActionView 0x7f0b0014
 int id deeplink 0x7f0b004a

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 245
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 304
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 368
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 435
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 502
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 634
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 689
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 793
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 909
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -233,7 +233,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "/Users/rjha/Code/LinkedInBump/LinkedInBump/eventsapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
         "map": [
             {
                 "to": {
@@ -244,7 +244,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -263,7 +263,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -282,7 +282,7 @@
                     "endOffset": 245
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -301,7 +301,7 @@
                     "endOffset": 304
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -320,7 +320,7 @@
                     "endOffset": 368
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -339,7 +339,7 @@
                     "endOffset": 435
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -358,7 +358,7 @@
                     "endOffset": 502
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -377,7 +377,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -396,7 +396,7 @@
                     "endOffset": 634
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -415,7 +415,7 @@
                     "endOffset": 689
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -434,7 +434,7 @@
                     "endOffset": 793
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -453,7 +453,7 @@
                     "endOffset": 909
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/values-large/values.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -466,7 +466,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
         "map": [
             {
                 "to": {
@@ -477,7 +477,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -496,7 +496,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -515,7 +515,7 @@
                     "endOffset": 245
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -534,7 +534,7 @@
                     "endOffset": 304
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -553,7 +553,7 @@
                     "endOffset": 368
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -572,7 +572,7 @@
                     "endOffset": 435
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -591,7 +591,7 @@
                     "endOffset": 502
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -610,7 +610,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -629,7 +629,7 @@
                     "endOffset": 634
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -648,7 +648,7 @@
                     "endOffset": 689
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -667,7 +667,7 @@
                     "endOffset": 793
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -686,7 +686,240 @@
                     "endOffset": 909
                 },
                 "from": {
-                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2150,
+                        "endColumn": 116,
+                        "endOffset": 2262
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 61,
+                        "endOffset": 336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 565,
+                        "endColumn": 71,
+                        "endOffset": 632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 60,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 860,
+                        "endColumn": 60,
+                        "endOffset": 916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 58,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1145,
+                        "endColumn": 58,
+                        "endOffset": 1199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 309,
+                    "endColumn": 63,
+                    "endOffset": 368
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1428,
+                        "endColumn": 63,
+                        "endOffset": 1487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 373,
+                    "endColumn": 66,
+                    "endOffset": 435
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1493,
+                        "endColumn": 66,
+                        "endOffset": 1555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 440,
+                    "endColumn": 66,
+                    "endOffset": 502
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 66,
+                        "endOffset": 1622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 507,
+                    "endColumn": 65,
+                    "endOffset": 568
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1627,
+                        "endColumn": 65,
+                        "endOffset": 1688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 573,
+                    "endColumn": 65,
+                    "endOffset": 634
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1693,
+                        "endColumn": 65,
+                        "endOffset": 1754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 639,
+                    "endColumn": 54,
+                    "endOffset": 689
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1760,
+                        "endColumn": 54,
+                        "endOffset": 1810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 694,
+                    "endColumn": 103,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2044,
+                        "endColumn": 104,
+                        "endOffset": 2144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 115,
+                    "endOffset": 909
+                },
+                "from": {
+                    "file": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-large\\values.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,

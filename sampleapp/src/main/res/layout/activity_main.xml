@@ -105,5 +105,11 @@
             android:layout_height="wrap_content" />
 
     </LinearLayout>
+s
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bluetooth?" />
 
 </LinearLayout>

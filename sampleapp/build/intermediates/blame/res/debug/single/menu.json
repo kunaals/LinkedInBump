@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\deeplink.xml",
+        "source": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\src\\main\\res\\menu\\deeplink.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\api.xml",
+        "source": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\src\\main\\res\\menu\\api.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\deeplink.xml",
+        "source": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\src\\main\\res\\menu\\deeplink.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\api.xml",
+        "source": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\src\\main\\res\\menu\\api.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\api.xml",
+        "source": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\src\\main\\res\\menu\\api.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\deeplink.xml",
+        "source": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\src\\main\\res\\menu\\deeplink.xml"
+    }
+]

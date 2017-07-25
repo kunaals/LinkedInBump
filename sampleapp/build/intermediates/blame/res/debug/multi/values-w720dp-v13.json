@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-w720dp\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 76,
+                        "endOffset": 352
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-w720dp\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 76,
+                        "endOffset": 352
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\values-w720dp\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 76,
+                        "endOffset": 352
+                    }
+                }
+            }
+        ]
+    }
+]

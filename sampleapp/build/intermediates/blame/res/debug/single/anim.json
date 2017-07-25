@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    }
+]

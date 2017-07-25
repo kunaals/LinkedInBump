@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "C:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,61 +11,13 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "E:\\Android_Studio_Projects\\InLogin\\eventsapp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "C:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\eventsapp\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 291,
+                        "startOffset": 295,
                         "endColumn": 57,
-                        "endOffset": 344
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "C:\\Users\\becro\\Documents\\InLogin\\InLogin\\eventsapp\\src\\main\\res\\values-w820dp\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 291,
-                        "endColumn": 57,
-                        "endOffset": 344
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\eventsapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\eventsapp\\src\\main\\res\\values-w820dp\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 291,
-                        "endColumn": 57,
-                        "endOffset": 344
+                        "endOffset": 348
                     }
                 }
             }

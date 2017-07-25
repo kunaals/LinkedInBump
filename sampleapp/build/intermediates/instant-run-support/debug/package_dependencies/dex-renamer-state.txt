@@ -1,16 +1,16 @@
-#Mon Jul 24 22:54:00 PDT 2017
+#Tue Jul 25 14:50:31 PDT 2017
 renamed.4=classes4.dex
-renamed.3=classes2.dex
+renamed.3=classes5.dex
 renamed.2=classes3.dex
-renamed.1=classes5.dex
-base.4=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-21.0.3_935e6b67b7fff04926fe3743d59ef497f2bc7a26
-renamed.0=classes.dex
-base.3=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9937d31600e45d79dafbd35b54a77fd7db7c1c8e
-base.2=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-21.0.3_194d8d4518309afeb2636b2118e33a36da996bed
-base.1=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\8\\volley_0b7dfa024831a0638165ee063873b4338c75e1a6
-base.0=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_519e94d004456775d4cf1899ce8e4c9540b3e85a
-file.4=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-21.0.3_935e6b67b7fff04926fe3743d59ef497f2bc7a26\\classes.dex
-file.3=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9937d31600e45d79dafbd35b54a77fd7db7c1c8e\\classes.dex
-file.2=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-21.0.3_194d8d4518309afeb2636b2118e33a36da996bed\\classes.dex
-file.1=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\8\\volley_0b7dfa024831a0638165ee063873b4338c75e1a6\\classes.dex
-file.0=C\:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_519e94d004456775d4cf1899ce8e4c9540b3e85a\\classes.dex
+renamed.1=classes.dex
+base.4=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-21.0.3_2591daafd7fb11d212aecf43ccd8eec8efc15bb7
+renamed.0=classes2.dex
+base.3=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\8\\volley_cbf9016c862ea2e0b84ea3178469e49e8f19918e
+base.2=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-21.0.3_5034e6b19de70d66abe640cf30fde50eca945deb
+base.1=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_883f8f4cad2b762ea8e9fbc07cf34ca677ee3f45
+base.0=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_aeab6dbdb62d6e3b086286f0d417124840307524
+file.4=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-21.0.3_2591daafd7fb11d212aecf43ccd8eec8efc15bb7\\classes.dex
+file.3=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\8\\volley_cbf9016c862ea2e0b84ea3178469e49e8f19918e\\classes.dex
+file.2=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-21.0.3_5034e6b19de70d66abe640cf30fde50eca945deb\\classes.dex
+file.1=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_883f8f4cad2b762ea8e9fbc07cf34ca677ee3f45\\classes.dex
+file.0=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_aeab6dbdb62d6e3b086286f0d417124840307524\\classes.dex

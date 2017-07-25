@@ -1,50 +1,14 @@
 [
     {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\api.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\src\\main\\res\\menu\\api.xml"
-    },
-    {
         "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/sampleapp/build/intermediates/res/merged/debug/menu/api.xml",
         "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/sampleapp/src/main/res/menu/api.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\deeplink.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\src\\main\\res\\menu\\deeplink.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\deeplink.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\src\\main\\res\\menu\\deeplink.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\src\\main\\res\\menu\\main.xml"
     },
     {
         "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/sampleapp/build/intermediates/res/merged/debug/menu/deeplink.xml",
         "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/sampleapp/src/main/res/menu/deeplink.xml"
     },
     {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\sampleapp\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\api.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\sampleapp\\src\\main\\res\\menu\\api.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\deeplink.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\sampleapp\\src\\main\\res\\menu\\deeplink.xml"
-    },
-    {
         "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/sampleapp/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/sampleapp/src/main/res/menu/main.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\api.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\sampleapp\\src\\main\\res\\menu\\api.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\sampleapp\\src\\main\\res\\menu\\main.xml"
     }
 ]

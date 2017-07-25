@@ -4,31 +4,7 @@
         "source": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/layout-v11/abc_action_bar_decor.xml"
     },
     {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\eventsapp\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_action_bar_decor.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\layout-v11\\abc_action_bar_decor.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\eventsapp\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_action_bar_decor.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\layout-v11\\abc_action_bar_decor.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_action_bar_decor.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout-v11\\abc_action_bar_decor.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_simple_decor.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout-v11\\abc_simple_decor.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\eventsapp\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_simple_decor.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\layout-v11\\abc_simple_decor.xml"
-    },
-    {
         "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/eventsapp/build/intermediates/res/merged/debug/layout-v11/abc_simple_decor.xml",
         "source": "/Users/rjha/.android/build-cache/de832ff30ac5853f276dfcf4ef42e4becb29ad55/output/res/layout-v11/abc_simple_decor.xml"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\eventsapp\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_simple_decor.xml",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\.android\\build-cache\\983c1abdafc71ef447ef560429d0c1a5f9aa519b\\output\\res\\layout-v11\\abc_simple_decor.xml"
     }
 ]

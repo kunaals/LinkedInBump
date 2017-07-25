@@ -1,18 +1,6 @@
 [
     {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/E:\\Android_Studio_Projects\\InLogin\\eventsapp\\build\\intermediates\\exploded-aar\\InLogin\\linkedin-sdk\\unspecified\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\eventsapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\InLogin\\InLogin\\linkedin-sdk\\build\\intermediates\\bundles\\default\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
-    },
-    {
         "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/eventsapp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
         "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/linkedin-sdk/build/intermediates/bundles/default/res/drawable-xxhdpi-v4/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\eventsapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "/Users/rjha/Code/LinkedInBump/LinkedInBump/C:\\Users\\becro\\Documents\\LinkedInBumpApp\\LinkedInBumpApp\\linkedin-sdk\\build\\intermediates\\bundles\\default\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
     }
 ]

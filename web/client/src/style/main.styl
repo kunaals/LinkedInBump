@@ -171,11 +171,28 @@ h1.bumped
             right 3px
             top 20px
             bottom 28px
-            background-color background
+            background-color white
+            &:before
+                content " "
+                position absolute
+                left 0
+                right 0
+                margin auto
+                width 65px
+                height 62px
+                margin-top 12px
+                background-image url('profile.png')
+                background-repeat no-repeat
+                background-size cover
             span
                 &:first-child
-                    padding-top 20%
+                    padding-top 96px
+                    text-transform uppercase
+                    letter-spacing .4em
+                    text-indent .35em
+                    font-size 24px
+                    color primary
                 font-size 22px
-                height 30%
+                height 36px
                 display block
                 text-align center

@@ -120,7 +120,8 @@ var App = (function (_super) {
         var _this = _super.call(this, props) || this;
         _this.state = {
             logged: !!(window['logged']),
-            locationState: LocationState.Detecting
+            locationState: LocationState.Detecting,
+            loaded: false
         };
         return _this;
     }
@@ -156,10 +157,17 @@ var App = (function (_super) {
                         _this.setState({ photo: user.pictureUrl });
                 }
                 catch (e) { }
+                finally {
+                    _this.setState({ loaded: true });
+                }
             }
         });
         r.open("GET", "/?api=user");
         r.send();
+    };
+    App.prototype.componentDidUpdate = function () {
+        if (this.state.loaded && !this.state.name)
+            this.setState({ logged: false, loaded: false });
     };
     App.prototype.render = function () {
         if (this.state.locationState === LocationState.Detecting)
@@ -266,6 +274,8 @@ var Bump = (function (_super) {
                     try {
                         var u = JSON.parse(r.responseText);
                         if (!u)
+                            return;
+                        if (u.url == _this.props.url)
                             return;
                         _this.setState({ connected: u });
                     }

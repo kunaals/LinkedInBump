@@ -15,6 +15,7 @@ interface AppState {
     photo?: string
     url?: string
     locationState: LocationState
+    loaded: boolean
 }
 
 export default class App extends React.Component<{}, AppState> {
@@ -22,7 +23,8 @@ export default class App extends React.Component<{}, AppState> {
         super(props)
         this.state = {
             logged: !!((window as any)['logged']),
-            locationState: LocationState.Detecting
+            locationState: LocationState.Detecting,
+            loaded: false
         }
     }
     componentWillMount() {
@@ -52,11 +54,17 @@ export default class App extends React.Component<{}, AppState> {
                         this.setState({url: user.publicProfileUrl})
                     if (user.pictureUrl)
                         this.setState({photo: user.pictureUrl})
-                } catch (e) {}
+                } catch (e) {} finally {
+                    this.setState({loaded: true})
+                }
             }
         })
         r.open("GET", "/?api=user")
         r.send()
+    }
+    componentDidUpdate() {
+        if (this.state.loaded && !this.state.name)
+            this.setState({logged: false, loaded: false})
     }
     render() {
         if (this.state.locationState === LocationState.Detecting) return <span />

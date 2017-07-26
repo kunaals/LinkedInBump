@@ -87,6 +87,7 @@ export default class Bump extends React.Component<BumpProps, BumpState> {
                 try {
                     let u = JSON.parse(r.responseText) as User
                     if (!u) return
+                    if (u.url == this.props.url) return
                     this.setState({connected: u})
                 } catch (e) {}
             }

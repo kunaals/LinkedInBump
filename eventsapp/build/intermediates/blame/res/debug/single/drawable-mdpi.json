@@ -56,12 +56,12 @@
         "source": "C:\\Users\\t-kusikk\\.android\\build-cache\\69e8270c2af30b7cb3417c78e7bbb85072feee7e\\output\\res\\drawable-mdpi\\abc_menu_dropdown_panel_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\eventsapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_ab_back_holo_light.png",
-        "source": "C:\\Users\\t-kusikk\\.android\\build-cache\\69e8270c2af30b7cb3417c78e7bbb85072feee7e\\output\\res\\drawable-mdpi\\abc_ic_ab_back_holo_light.png"
-    },
-    {
         "merged": "C:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\eventsapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_cab_background_bottom_holo_dark.9.png",
         "source": "C:\\Users\\t-kusikk\\.android\\build-cache\\69e8270c2af30b7cb3417c78e7bbb85072feee7e\\output\\res\\drawable-mdpi\\abc_cab_background_bottom_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\eventsapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_ab_back_holo_light.png",
+        "source": "C:\\Users\\t-kusikk\\.android\\build-cache\\69e8270c2af30b7cb3417c78e7bbb85072feee7e\\output\\res\\drawable-mdpi\\abc_ic_ab_back_holo_light.png"
     },
     {
         "merged": "C:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\eventsapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_longpressed_holo.9.png",

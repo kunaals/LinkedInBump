@@ -61,6 +61,7 @@ public class MainActivity extends Activity {
                         setUpdateState();
                         Toast.makeText(getApplicationContext(), "success" + LISessionManager.getInstance(getApplicationContext()).getSession().getAccessToken().toString(), Toast.LENGTH_LONG).show();
                     }
+
                     @Override
                     public void onAuthError(LIAuthError error) {
                         setUpdateState();
@@ -123,6 +124,16 @@ public class MainActivity extends Activity {
                 } catch (NoSuchAlgorithmException e) {
                     Log.d(TAG, e.getMessage(), e);
                 }
+            }
+        });
+
+        //Start Bluetooth activity
+        Button liBluetoothCallButton = (Button) findViewById(R.id.BluetoothCall);
+        liBluetoothCallButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BluetoothChat.class);
+                startActivity(intent);
             }
         });
     }

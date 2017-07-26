@@ -1,7 +1,4 @@
-#Tue Jul 25 14:50:31 PDT 2017
-base.0=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_88d3246862af5ada8d0b94de7a289783fe5ff4d9
-renamed.1=classes2.dex
+#Tue Jul 25 16:45:06 PDT 2017
+base.0=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_718065405ac0785f4dacec9e99acb682f0ecf27d\\classes.dex
-base.1=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_718065405ac0785f4dacec9e99acb682f0ecf27d
-file.0=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_88d3246862af5ada8d0b94de7a289783fe5ff4d9\\classes.dex
+file.0=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

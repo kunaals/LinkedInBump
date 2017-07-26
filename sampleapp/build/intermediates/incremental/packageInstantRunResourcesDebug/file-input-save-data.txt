@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jul 25 14:50:25 PDT 2017
+#Tue Jul 25 15:30:18 PDT 2017
 122.file=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\message.xml
 60.set=ANDROID_RESOURCE
 129.file=C\:\\Users\\t-kusikk\\Documents\\AndroidStudio\\LinkedInBump\\sampleapp\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_voice_search_api_holo_light.png

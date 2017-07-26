@@ -1,0 +1,103 @@
+button-background = #0274b3
+primary = #0084bf
+
+body
+    font-family sans-serif
+    margin 0
+    padding 0
+    background-color #f3f6f8
+main > header
+    background-color primary
+    overflow hidden
+    height 52px
+    text-align center
+    h1
+        display inline-block
+        background-repeat no-repeat
+        background-image url('https://static.licdn.com/sc/h/1y79tjb5z393y82lxjvqypfeu')
+        background-size 84px 20px
+        width 84px
+        height 20px
+        padding 0
+        margin 0
+        margin-top 16px
+        color transparent
+.login
+    text-align center
+    padding-top 32px
+    > button
+        height 48px
+        background-color button-background
+        color white
+        overflow hidden
+        border none
+        outline none
+        border-radius 3px
+        img
+            height 100%
+            float left
+        > span
+            float right
+            display block
+            line-height 1
+            font-size 24px
+            height 48px
+            box-sizing border-box
+            padding-top 12px
+            padding-right 6px
+            padding-left 24px
+            vertical-align middle
+.bump
+    h2
+        text-align center
+        padding-top 32px
+        font-weight 400
+.user
+    text-align center
+    padding-top 32px
+    .photo
+        display inline-block
+        width 80px
+        height 80px
+        border-radius 50%
+        background-size cover
+        background-color #999
+    .name
+        font-size 32px
+    .headline
+        font-size 20px
+    .connect
+    .cancel
+        display inline-block
+        margin-top 24px
+        font-size 24px
+        border-radius 3px
+        padding 8px
+        background none
+        border none
+        color #fff
+        text-decoration none
+    .connect
+        background-color button-background
+    .cancel
+        background-color #ccc
+
+@keyframes loader-rotation
+	0%
+		transform rotate(0deg)
+	100%
+		transform rotate(360deg)
+
+.loader
+    margin 24px auto
+    font-size 8px
+    position relative
+    border-width 1.5em
+    border-style solid
+    transform translateZ(0)
+    animation loader-rotation 1.1s infinite cubic-bezier(.18,.42,.82,.58)
+    border-radius 50%
+    width 80px
+    height 80px
+    border-color rgba(primary, 0.5)
+    border-left-color primary

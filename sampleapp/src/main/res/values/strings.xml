@@ -9,5 +9,6 @@
     <string name="invalidProfile">View Profile using invalid ID</string>
     <string name="title_activity_deeplink">DeeplinkActivity</string>
     <string name="title_activity_api">apiActivity</string>
+    <color name="white">#FFFFFF</color>
 
 </resources>

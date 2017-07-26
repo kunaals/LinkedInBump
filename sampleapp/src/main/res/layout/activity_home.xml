@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:src="@mipmap/logo"
+        android:background="@color/whi"
+        android:layout_weight="0.20" />
+
+    <ImageButton
+        android:id="@+id/devmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="163dp"
+        android:layout_y="515dp"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+</AbsoluteLayout>

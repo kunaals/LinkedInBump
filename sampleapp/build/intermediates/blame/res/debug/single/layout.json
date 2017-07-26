@@ -88,6 +88,10 @@
         "source": "C:\\Users\\kazan\\.android\\build-cache\\d84e2c8d4b7fff6d5ca9fa340200d3ff8cebcf3e\\output\\res\\layout\\abc_action_bar_decor.xml"
     },
     {
+        "merged": "C:\\Users\\kazan\\StudioProjects\\LinkedInBump\\sampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\kazan\\StudioProjects\\LinkedInBump\\sampleapp\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\kazan\\StudioProjects\\LinkedInBump\\sampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\activity_deeplink.xml",
         "source": "C:\\Users\\kazan\\StudioProjects\\LinkedInBump\\sampleapp\\src\\main\\res\\layout\\activity_deeplink.xml"
     },

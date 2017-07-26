@@ -1,5 +1,6 @@
 import * as React from 'react'
 import User from './user'
+import BumpAnim from './bump-anim'
 
 interface BumpProps {
     name: string
@@ -23,7 +24,7 @@ interface BumpState {
 }
 
 export default class Bump extends React.Component<BumpProps, BumpState> {
-    orientListener: any
+    moveListener: any
     posWatch: number
     id: string
     constructor(props: BumpProps) {
@@ -35,48 +36,45 @@ export default class Bump extends React.Component<BumpProps, BumpState> {
     componentWillMount() {
         this.id = (new Date()).getTime() + ""
 
-        if ((window as any).DeviceOrientationEvent) {
-            this.orientListener = (e: DeviceOrientationEvent) => {
-                if (e.alpha != null && e.beta != null && e.gamma != null)
-                    tilt(e.alpha, e.beta, e.gamma)
+        if ('ondevicemotion' in window) {
+            this.moveListener = (e: DeviceMotionEvent) => {
+                if (e.accelerationIncludingGravity)
+                    tilt(e.accelerationIncludingGravity.x || 0, e.accelerationIncludingGravity.y || 0, e.accelerationIncludingGravity.z || 0)
             }
-            window.addEventListener('deviceorientation', this.orientListener, true)
+            window.addEventListener('devicemotion', this.moveListener, true)
             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(() => {
-                    this.posWatch = navigator.geolocation.watchPosition(p => {
-                        if (document.hidden) return
-                        this.setState({latitude: p.coords.latitude, longitude: p.coords.longitude})
-                    }, () => {}, {enableHighAccuracy: true})
-                })
+                let l: PositionCallback = p => {
+                    if (document.hidden) return
+                    this.setState({latitude: p.coords.latitude, longitude: p.coords.longitude})
+                }
+                navigator.geolocation.getCurrentPosition(l, () => {}, {enableHighAccuracy: true})
+                this.posWatch = navigator.geolocation.watchPosition(l, () => {}, {enableHighAccuracy: true})
             }
         }
 
-        let la: number, lb: number, lc: number, lt: number, loc: number, sample = 0
+        let cal = 0, sample = 0
 
         let tilt = (a: number, b: number, c: number) => {
-            if (document.hidden) {
+            let d = a * a + b * b + c * c
+            if (document.hidden || this.state.bump) {
                 sample = 0
                 return
             }
-            if (lt != null) {
-                let dt = ((new Date()).getTime() - lt) / 1000,
-                    da = Math.abs(a - la) / dt,
-                    db = Math.abs(b - lb) / dt,
-                    dc = Math.abs(c - lc) / dt,
-                    v = Math.max(da, db, dc)
-                if (v > 400 && sample > 100)
+            if (sample > 100) {
+                if ((cal / sample) * 6 < d) {
                     this.doBump()
-                else
-                    sample++
+                    sample = 0
+                    cal = 0
+                }
             }
-            la = a
-            lb = b
-            lc = c
-            lt = (new Date()).getTime()
+            if (sample < 100000) {
+                cal += d
+                sample++
+            }
         }
     }
     componentWillUnmount() {
-        if (this.orientListener) window.removeEventListener('deviceorientation', this.orientListener, true)
+        if (this.moveListener) window.removeEventListener('deviceorientation', this.moveListener, true)
         if (this.posWatch) navigator.geolocation.clearWatch(this.posWatch)
     }
     doBump = () => {
@@ -106,11 +104,16 @@ export default class Bump extends React.Component<BumpProps, BumpState> {
         if (!this.props.url)
             return <div className="bump"><h2>Please make your profile visible</h2></div>
         if (this.state.connected)
-            return <User {...this.state.connected} cancel={() => this.setState({connected: null})}/>
+            return (
+                <div>
+                     <h1 className="bumped">Bumped With</h1>
+                    <User {...this.state.connected} cancel={() => this.setState({connected: null})}/>
+                </div>
+            )
         return (
             <div className="bump">
                 {this.state.bump || this.state.latitude == null ? <div className="loader" /> : <User name={this.props.name} url={this.props.url} photo={this.props.photo} headline={this.props.headline} />}
-                <h2>{this.state.bump ? '' : this.state.latitude == null ? 'Loading Location' :  'Bump to connect'}</h2>
+                {this.state.bump ? false : this.state.latitude == null ? <h2>Loading Location</h2> :  <BumpAnim />}
             </div>
         )
     }

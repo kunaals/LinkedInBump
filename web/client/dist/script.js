@@ -128,11 +128,11 @@ var App = (function (_super) {
         var _this = this;
         if (this.state.locationState === LocationState.Detecting) {
             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function (l) {
-                    _this.setState({ locationState: LocationState.Found });
-                }, function () {
-                    _this.setState({ locationState: LocationState.NotFound });
-                });
+                //navigator.geolocation.getCurrentPosition(l => {
+                this.setState({ locationState: LocationState.Found });
+                //}, () => {
+                //this.setState({locationState: LocationState.NotFound})
+                //})
             }
             else {
                 this.setState({ locationState: LocationState.NotFound });
@@ -250,6 +250,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var user_1 = __webpack_require__(6);
+var bump_anim_1 = __webpack_require__(7);
 var Bump = (function (_super) {
     __extends(Bump, _super);
     function Bump(props) {
@@ -288,44 +289,45 @@ var Bump = (function (_super) {
     Bump.prototype.componentWillMount = function () {
         var _this = this;
         this.id = (new Date()).getTime() + "";
-        if (window.DeviceOrientationEvent) {
-            this.orientListener = function (e) {
-                if (e.alpha != null && e.beta != null && e.gamma != null)
-                    tilt(e.alpha, e.beta, e.gamma);
+        if ('ondevicemotion' in window) {
+            this.moveListener = function (e) {
+                if (e.accelerationIncludingGravity)
+                    tilt(e.accelerationIncludingGravity.x || 0, e.accelerationIncludingGravity.y || 0, e.accelerationIncludingGravity.z || 0);
             };
-            window.addEventListener('deviceorientation', this.orientListener, true);
+            window.addEventListener('devicemotion', this.moveListener, true);
             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function () {
-                    _this.posWatch = navigator.geolocation.watchPosition(function (p) {
-                        if (document.hidden)
-                            return;
-                        _this.setState({ latitude: p.coords.latitude, longitude: p.coords.longitude });
-                    }, function () { }, { enableHighAccuracy: true });
-                });
+                var l = function (p) {
+                    if (document.hidden)
+                        return;
+                    _this.setState({ latitude: p.coords.latitude, longitude: p.coords.longitude });
+                };
+                navigator.geolocation.getCurrentPosition(l, function () { }, { enableHighAccuracy: true });
+                this.posWatch = navigator.geolocation.watchPosition(l, function () { }, { enableHighAccuracy: true });
             }
         }
-        var la, lb, lc, lt, loc, sample = 0;
+        var cal = 0, sample = 0;
         var tilt = function (a, b, c) {
-            if (document.hidden) {
+            var d = a * a + b * b + c * c;
+            if (document.hidden || _this.state.bump) {
                 sample = 0;
                 return;
             }
-            if (lt != null) {
-                var dt = ((new Date()).getTime() - lt) / 1000, da = Math.abs(a - la) / dt, db = Math.abs(b - lb) / dt, dc = Math.abs(c - lc) / dt, v = Math.max(da, db, dc);
-                if (v > 400 && sample > 100)
+            if (sample > 100) {
+                if ((cal / sample) * 6 < d) {
                     _this.doBump();
-                else
-                    sample++;
+                    sample = 0;
+                    cal = 0;
+                }
             }
-            la = a;
-            lb = b;
-            lc = c;
-            lt = (new Date()).getTime();
+            if (sample < 100000) {
+                cal += d;
+                sample++;
+            }
         };
     };
     Bump.prototype.componentWillUnmount = function () {
-        if (this.orientListener)
-            window.removeEventListener('deviceorientation', this.orientListener, true);
+        if (this.moveListener)
+            window.removeEventListener('deviceorientation', this.moveListener, true);
         if (this.posWatch)
             navigator.geolocation.clearWatch(this.posWatch);
     };
@@ -335,10 +337,12 @@ var Bump = (function (_super) {
             return React.createElement("div", { className: "bump" },
                 React.createElement("h2", null, "Please make your profile visible"));
         if (this.state.connected)
-            return React.createElement(user_1.default, __assign({}, this.state.connected, { cancel: function () { return _this.setState({ connected: null }); } }));
+            return (React.createElement("div", null,
+                React.createElement("h1", { className: "bumped" }, "Bumped With"),
+                React.createElement(user_1.default, __assign({}, this.state.connected, { cancel: function () { return _this.setState({ connected: null }); } }))));
         return (React.createElement("div", { className: "bump" },
             this.state.bump || this.state.latitude == null ? React.createElement("div", { className: "loader" }) : React.createElement(user_1.default, { name: this.props.name, url: this.props.url, photo: this.props.photo, headline: this.props.headline }),
-            React.createElement("h2", null, this.state.bump ? '' : this.state.latitude == null ? 'Loading Location' : 'Bump to connect')));
+            this.state.bump ? false : this.state.latitude == null ? React.createElement("h2", null, "Loading Location") : React.createElement(bump_anim_1.default, null)));
     };
     return Bump;
 }(React.Component));
@@ -364,6 +368,44 @@ function User(_a) {
         cancel && React.createElement("button", { className: "cancel", onClick: cancel }, "Back")));
 }
 exports.default = User;
+
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+var BumpAnim = (function (_super) {
+    __extends(BumpAnim, _super);
+    function BumpAnim() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    BumpAnim.prototype.render = function () {
+        return (React.createElement("div", { className: "bump-anim" },
+            React.createElement("div", { className: "line" }),
+            React.createElement("div", { className: "phone" },
+                React.createElement("div", { className: "top" }),
+                React.createElement("div", { className: "body" },
+                    React.createElement("span", null, "Bump"),
+                    React.createElement("span", null, "to"),
+                    React.createElement("span", null, "connect")))));
+    };
+    return BumpAnim;
+}(React.Component));
+exports.default = BumpAnim;
 
 
 /***/ })

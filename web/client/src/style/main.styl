@@ -1,11 +1,12 @@
 button-background = #0274b3
 primary = #0084bf
+background = #f3f6f8
 
 body
     font-family sans-serif
     margin 0
     padding 0
-    background-color #f3f6f8
+    background-color background
 main > header
     background-color primary
     overflow hidden
@@ -52,6 +53,13 @@ main > header
         text-align center
         padding-top 32px
         font-weight 400
+h1.bumped
+    font-weight 400
+    font-size 40px
+    text-align center
+    border-bottom 1px solid mix(gray, background, 50%)
+    margin 20px
+    color button-background
 .user
     text-align center
     padding-top 32px
@@ -90,6 +98,7 @@ main > header
 
 .loader
     margin 24px auto
+    margin-top 48px
     font-size 8px
     position relative
     border-width 1.5em
@@ -101,3 +110,72 @@ main > header
     height 80px
     border-color rgba(primary, 0.5)
     border-left-color primary
+
+@keyframes phone-shake
+    0%
+        transform rotate(0deg)
+    5%
+        transform rotate(-10deg)
+    20%
+        transform rotate(0deg)
+
+@keyframes shake-line
+    0%
+        opacity 0
+    3%
+        opacity 0
+    5%
+        opacity 1
+    10%
+        opacity 0
+
+.bump-anim
+    position relative
+    width 128px
+    margin 0 auto
+    .line
+        position absolute
+        width 48px
+        height 48px
+        top 2px
+        left -44px
+        border-radius 50%
+        border 2px solid transparent
+        border-left-color primary
+        transform rotate(20deg)
+        opacity 0
+        animation shake-line 2s infinite ease-out
+        animation-delay 1s
+    .phone
+        position relative
+        width 128px
+        height 256px
+        background-color mix(primary, black, 50%)
+        border-radius 24px
+        animation phone-shake 2s infinite ease-out
+        animation-delay 1s
+        transform-origin 64px 224px
+        .top
+            position absolute
+            top 6px
+            left 0
+            right 0
+            margin auto
+            width 20%
+            height 4px
+            background-color background
+            border-radius 2px
+        .body
+            position absolute
+            left 3px
+            right 3px
+            top 20px
+            bottom 28px
+            background-color background
+            span
+                &:first-child
+                    padding-top 20%
+                font-size 22px
+                height 30%
+                display block
+                text-align center

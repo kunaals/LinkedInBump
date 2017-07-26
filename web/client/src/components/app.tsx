@@ -28,11 +28,11 @@ export default class App extends React.Component<{}, AppState> {
     componentWillMount() {
         if (this.state.locationState === LocationState.Detecting) {
             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(l => {
+                //navigator.geolocation.getCurrentPosition(l => {
                     this.setState({locationState: LocationState.Found})
-                }, () => {
-                    this.setState({locationState: LocationState.NotFound})
-                })
+                //}, () => {
+                    //this.setState({locationState: LocationState.NotFound})
+                //})
             } else {
                 this.setState({locationState: LocationState.NotFound})
             }

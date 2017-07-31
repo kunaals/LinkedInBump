@@ -13,6 +13,7 @@
     "@types/react-dom": "^15.5.1",
     "classnames": "^2.2.5",
     "deep-equal": "^1.0.1",
+    "es6-promise": "^4.1.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },

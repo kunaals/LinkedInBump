@@ -6,7 +6,7 @@ interface BumpProps {
     name: string
     photo?: string
     headline?: string
-    url?: string
+    url: string
 }
 
 interface User {
@@ -19,8 +19,10 @@ interface User {
 interface BumpState {
     latitude?: number
     longitude?: number
+    accuracy?: number
     bump: boolean
     connected?: User | null
+    error: string
 }
 
 export default class Bump extends React.Component<BumpProps, BumpState> {
@@ -30,26 +32,22 @@ export default class Bump extends React.Component<BumpProps, BumpState> {
     constructor(props: BumpProps) {
         super(props)
         this.state = {
-            bump: false
+            bump: false,
+            error: ''
         }
     }
     componentWillMount() {
         this.id = (new Date()).getTime() + ""
 
-        if ('ondevicemotion' in window) {
+        if ('ondevicemotion' in window && navigator.geolocation) {
             this.moveListener = (e: DeviceMotionEvent) => {
                 if (e.accelerationIncludingGravity)
                     tilt(e.accelerationIncludingGravity.x || 0, e.accelerationIncludingGravity.y || 0, e.accelerationIncludingGravity.z || 0)
             }
             window.addEventListener('devicemotion', this.moveListener, true)
-            if (navigator.geolocation) {
-                let l: PositionCallback = p => {
-                    if (document.hidden) return
-                    this.setState({latitude: p.coords.latitude, longitude: p.coords.longitude})
-                }
-                navigator.geolocation.getCurrentPosition(l, () => {}, {enableHighAccuracy: true})
-                this.posWatch = navigator.geolocation.watchPosition(l, () => {}, {enableHighAccuracy: true})
-            }
+            this.setupLocation()
+        } else {
+            this.setState({error: 'This device is not supported'})
         }
 
         let cal = 0, sample = 0
@@ -77,17 +75,36 @@ export default class Bump extends React.Component<BumpProps, BumpState> {
         if (this.moveListener) window.removeEventListener('deviceorientation', this.moveListener, true)
         if (this.posWatch) navigator.geolocation.clearWatch(this.posWatch)
     }
+    setupLocation() {
+        if (this.posWatch) navigator.geolocation.clearWatch(this.posWatch)
+        
+        let listener: PositionCallback = p => {
+            if (document.hidden) return
+            this.setState({error: '', latitude: p.coords.latitude, longitude: p.coords.longitude, accuracy: p.coords.accuracy})
+        },
+        eListener: PositionErrorCallback = e => {
+            if (e.code === e.PERMISSION_DENIED || e.code === e.POSITION_UNAVAILABLE)
+                this.setState({error: 'Please enable location data'})
+            else
+                this.setState({error: 'Unable to find location'})
+        }
+        navigator.geolocation.getCurrentPosition(p => {
+            this.posWatch = navigator.geolocation.watchPosition(listener, eListener, {enableHighAccuracy: true})
+            listener(p)
+        }, eListener, {enableHighAccuracy: true})
+        
+    }
     doBump = () => {
-        if (this.state.bump || !this.props.url || document.hidden || this.state.connected || this.state.latitude == null) return
+        if (this.state.bump || this.state.error || document.hidden || this.state.connected || this.state.latitude == null) return
         this.setState({bump: true})
         let r = new XMLHttpRequest()
         r.addEventListener("load", () => {
             if (r.readyState === r.DONE && r.status === 200) {
                 this.setState({bump: false})
                 try {
-                    let u = JSON.parse(r.responseText) as User
+                    let u = JSON.parse(r.responseText)
                     if (!u) return
-                    if (u.url == this.props.url) return
+                    if (u.error) {window.location.reload(); return}
                     this.setState({connected: u})
                 } catch (e) {}
             }
@@ -98,12 +115,12 @@ export default class Bump extends React.Component<BumpProps, BumpState> {
             photo: this.props.photo,
             url: this.props.url
         }
-        r.open("GET", "/?api=bump&id=" + this.id +  "&data=" + encodeURIComponent(JSON.stringify(payload)) + '&lat=' + this.state.latitude + '&lon=' + this.state.longitude)
-        r.send()
+        r.open("POST", '/')
+        r.send('api=bump&acc=' + this.state.accuracy + '&lat=' + this.state.latitude + '&lon=' + this.state.longitude)
     }
     render() {
-        if (!this.props.url)
-            return <div className="bump"><h2>Please make your profile visible</h2></div>
+        if (this.state.error)
+            return <div className="bump"><h2>{this.state.error}</h2></div>
         if (this.state.connected)
             return (
                 <div>

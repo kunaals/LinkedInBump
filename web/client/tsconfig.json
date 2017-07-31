@@ -3,7 +3,7 @@
         "outDir": "./dist/",
         "strict": true,
         "module": "commonjs",
-        "target": "es5",
+        "target": "es3",
         "jsx": "react"
     },
     "include": [

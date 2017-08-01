@@ -8,4 +8,4 @@ To use LinkedIn Bump, simply visit http://aka.ms/bump and ensure that you have l
 
 ## Repo Structure
 
-The files for the main webapp are in the 'web' folder on the master branch and the iOS app code can be found on the 'iOS' branch.
+The files for the main web app are in the 'web' folder on the master branch and the iOS app code can be found on the 'iOS' branch.
